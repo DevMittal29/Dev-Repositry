@@ -1,0 +1,39 @@
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#home h1{
+    font-family: 'Bacasime Antique', serif;
+}
+#home p{
+    font-family: 'Dancing Script', cursive;
+}
+
+#contact{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    padding: 100px;
+    justify-content: center;
+}
+.l1{
+    grid-area: 1 / 1 / 1 / 1;
+    font-size: 70;
+}
+.l2{
+    margin-bottom: 40px;
+    grid-area: 2 / 1 / 2 / 1;
+    font-size: 26;
+    font-family: 'Times New Roman', Times, serif;
+}
+.right{
+    margin-left: 150px;
+    margin-top: 50px;    
+    grid-area: 1 / 2 / span 1 / 2;
+}

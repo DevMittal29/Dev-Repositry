@@ -37,3 +37,24 @@
     margin-top: 50px;    
     grid-area: 1 / 2 / span 1 / 2;
 }
+@media (max-width: 767px) {
+    #contact {
+      display: block; /* Change to block layout for mobile */
+      margin: 20px; /* Reduce margin for mobile */
+      padding: 20px; /* Reduce padding for mobile */
+    }
+    
+    .l1 {
+      font-size: 40px; /* Decrease font size for mobile */
+    }
+    
+    .l2 {
+      font-size: 18px; /* Decrease font size for mobile */
+    }
+    
+    .right {
+      margin-left: 0; /* Remove left margin for mobile */
+      margin-top: 20px; /* Adjust top margin for mobile */
+      grid-area: initial; /* Remove grid area for mobile */
+    }
+  }

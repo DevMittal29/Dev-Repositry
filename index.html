@@ -20,14 +20,21 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <!-- Navbar toggler button -->
+                  <button class="navbar-toggler ml-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="#" style="font-weight: bold ;">Home</a>
+              
+                  <!-- Navbar content -->
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                      <!-- Home link -->
+                      <a class="nav-link active" aria-current="page" href="#" style="font-weight: bold;">Home</a>
+                      <!-- About link -->
                       <a class="nav-link" href="#">About</a>
+                      <!-- Gallery link -->
                       <a class="nav-link" href="#">Gallery</a>
+                      <!-- Contact link (scrolls to a section with the "contact" ID) -->
                       <a class="nav-link" href="#contact">Contact</a>
                     </div>
                   </div>

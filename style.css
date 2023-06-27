@@ -58,3 +58,9 @@
       grid-area: initial; /* Remove grid area for mobile */
     }
   }
+ @media (max-width: 991.98px) {
+    .custom-toggler {
+      margin-left: auto;
+      float: right;
+    }
+  }
